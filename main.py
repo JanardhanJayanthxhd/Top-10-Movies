@@ -26,7 +26,7 @@ parameters_movie_id = {
 # -----------------------app---------------------------
 app = Flask(__name__)
 app.app_context().push()
-app.config['SECRET_KEY'] = '8BYkEfBA62O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = " # your flask app's secret key
 
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///top-10-movie-collection.db"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
