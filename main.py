@@ -8,7 +8,7 @@ import requests
 
 
 # ------------------The movie DB--------------------
-TMDB_API_KEY = 'b8c2970e6df31be428d8e71e99380ad4'
+TMDB_API_KEY = '' # your the movie db api key
 SEARCH_URL = 'https://api.themoviedb.org/3/search/movie'
 IMG_BASE_URL = 'https://image.tmdb.org/t/p/w500'
 
